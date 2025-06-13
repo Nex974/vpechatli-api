@@ -14,7 +14,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://vpechatli.tech"],  # adjust if frontend is hosted elsewhere
+    allow_origins=["https://vpechatli.tech"],  # adjust if frontend is hosted elsewhere
     allow_methods=["*"],
     allow_headers=["*"],
 )
